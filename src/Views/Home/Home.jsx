@@ -4,6 +4,7 @@ import Banner from "./HomeSections/Banner";
 import HowWork from "./HomeSections/HowWork";
 import PopularRewards from "./HomeSections/PopularRewards";
 import LoginRegister from "../LoginRegister/LoginRegister";
+import Footer from "../../Components/Footer";
 
 const Home = () => {
     const [modal, setModal] = useState(false);
@@ -16,6 +17,7 @@ const Home = () => {
             <Banner/>
             <PopularRewards/>
             <HowWork/>
+            <Footer/>
 
             {
                 modal && <LoginRegister onClose={ ()=>setModal(false)}/>

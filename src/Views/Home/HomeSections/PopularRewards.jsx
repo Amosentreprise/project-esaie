@@ -95,11 +95,11 @@ const PopularRewards = () => {
                 </div>
                 <div className="w-full flex flex-col">
                     
-                    <div className="  flex flex-wrap   gap-5 ">
+                    <div className="  grid grid-cols-2 gap-5 ">
                         {
                             popularRewards.map((reward)=>{
                                 return(
-                                    <div key={reward.id} className=" bg-white p-3 rounded-lg w-[40%] h-[200px] flex justify-evenly items-center gap-2">
+                                    <div key={reward.id} className=" bg-white p-3 rounded-lg h-[200px] flex justify-evenly items-center gap-2 transform hover:-translate-y-3 hover:shadow-2xl transition-all">
                                         <div className=" flex flex-col justify-between">
                                             <div>
                                                 <h2 className=" font-bold text-neutral-900">PayPal</h2>

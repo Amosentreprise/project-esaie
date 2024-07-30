@@ -32,7 +32,7 @@ const HowWork = () => {
         },
     ]
     return ( 
-        <div className=" min-h-[400px] bg-white p-5 space-y-6 font-open">
+        <div className=" min-h-[400px] bg-secondary p-5 space-y-6 font-open">
             <h2 className=" text-3xl font-bold text-neutral-900">How does it work?</h2>
 
             <div className="flex flex-wrap gap-3">
